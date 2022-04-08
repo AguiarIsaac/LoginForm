@@ -6,21 +6,27 @@
     box-sizing: content-box;
 }
 
-body{
+main{
 	box-sizing: border-box;
 	background: #191816;
 	color: #AFB6C2;
 	font-family: 'Poppins', sans-serif;
+	height: 92vh;
 }
 
 header {
 	height: 8vh;
     align-items: center;
     display: flex;
-    margin-left: 2rem;
+    background: #191816;
+	color: #AFB6C2;
 }
 
-section.section, header {
+header nav {
+	margin-left: 2rem;
+}
+
+section.section {
 	max-width: 21rem;
     margin: 0 auto;
 }
@@ -85,14 +91,9 @@ input#submit {
 }
 
 @media(min-width:900px) {
-	header {
-	max-width: none;
-    margin: 0 auto;
-    width: 90%;
-	}
-
 	main {
-		margin-top: 7.825rem;
+		padding-top: 8rem;
+    	height: 92vh;;
 	}
 
 	section.section {
@@ -103,4 +104,7 @@ input#submit {
 }
 
 @media(min-width: 1200px) {
+	header, main {
+		width: 50vw;
+	}
 }
