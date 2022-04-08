@@ -11,20 +11,21 @@
 </head>
 
 <body>
-	<header class="">
-		<nav class="container">
+	<header class="pc-mode">
+		<nav>
 			<img src="assets/logo.svg" alt="Logo da empresa">
 		</nav>
 	</header>
 
 	<main>
-		<section class="section container">
+		<section class="section container pc-mode">
 
-			<div class="title-form">
+			<div id="title-form">
 				<img src="assets/log-in.svg" alt="Imagem de check-out">
 				<h2>Faça seu login</h2>
 			</div>
-			<div class="subtitle-form">
+
+			<div id="subtitle-form">
 				<p>Entre com suas Informações de cadastro.</p>
 			</div>
 
@@ -40,19 +41,25 @@
 						<input type="text" name="password" id="password" class="input">
 					</div>
 
-					<div class="input-area">
-						<input type="checkbox" name="savepass" id="savepass">
-						<label for="savepass">Lembre-me</label>
+					<div class="input-area" id="checkbox">
+						<div>
+							<input type="checkbox" name="savepass" id="savepass">
+							<label for="savepass">Lembre-me</label>
+						</div>
 
-						<a href="/">Esqueci Minha senha</a>
+						<a href="/" class="link">Esqueci Minha senha</a>
 					</div>
 
-					<div class=" input input-button">
+					<div class="input-area" id="button-area">
 						<input type="submit" name="submit" id="submit">
-						<a href=""> Não tem uma conta? <strong>Registre-se</strong></a>
+						<a href="" class="link"> Não tem uma conta? <strong>Registre-se</strong></a>
 					</div>
 				</form>
 			</div>
+		</section>
+
+		<section id="background-photo">
+			<img src="https://cdn.pixabay.com/photo/2016/11/22/23/08/adventure-1851092_960_720.jpg" alt="Imagem de acampamento ao ar livre">
 		</section>
 	</main>
 </body>
