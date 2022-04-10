@@ -54,7 +54,7 @@ form a {
 	height: 2rem;
 	border-radius: 4px;
 	outline: 0; /*Remove o border quanto estiver no Focus*/
-	border: none;
+	border: 1px solid #AFB6C2;
 	box-sizing: border-box; /* respeita o tamanho da box*/
 	background-color: #191816;
 	color: #AFB6C2;
